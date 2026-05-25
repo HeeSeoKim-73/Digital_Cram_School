@@ -7,8 +7,7 @@ YOLOv8를 이용한 객체 탐지 모델과 웹캠을 이용하여
 
 YOLOv8 객체 탐지 모델의 fine-tuning을 위해
 kaggle의 cell phone object detection dataset을 활용하였다.
-
-https://www.kaggle.com/datasets/a165079/cellphoneobjectdetectionusingyolov7
+- https://www.kaggle.com/datasets/a165079/cellphoneobjectdetectionusingyolov7
 
 학습 완료 후 생성된 최고 성능 모델이 best.pt 파일이다.
 
