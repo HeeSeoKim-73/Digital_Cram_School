@@ -47,9 +47,13 @@ kaggle의 cell phone object detection dataset을 활용하였다.
 웹캠 영상을 실시간으로 분석하여 스마트폰 사용 여부를 감지한다.
 학습 시간/모의고사 타이머 작동 중 스마트폰이 감지되면 PHONE DETECTED 메시지가 표시된다.
 
+![phone_detection_during_study](phone_detection_during_study.png)
+
 ### 2. 자리 이탈 감지
 YOLOv8 기본 모델을 이용하여 사용자의 존재 여부를 확인한다.
 학습 시간/모의고사 타이머 작동 중 10초 이상 화면에서 사라질 경우 SEAT DOWN 메시지가 표시된다.
+
+![person_detection_during_study](person_detection_during_study.png)
 
 ### 3. 재수학원 시간표 시스템
 현재 한국 시간을 기준으로 학습 시간과 쉬는 시간을 판별한다.
@@ -64,6 +68,8 @@ YOLOv8 기본 모델을 이용하여 사용자의 존재 여부를 확인한다.
 - 18:40 ~ 20:20
 - 20:30 ~ 22:00
 
+![break_time](break_time.png)
+
 ### 4. 모의고사 타이머
 모의고사 시간을 직접 설정할 수 있다.
 타이머가 작동하는 동안에는 현재 시간이 쉬는 시간이더라도 스마트폰 사용, 자리 이탈이 계속 감지되며 경고 메시지를 보낸다.
@@ -72,6 +78,9 @@ YOLOv8 기본 모델을 이용하여 사용자의 존재 여부를 확인한다.
 - 1분 추가
 - 타이머 초기화
 - 시작 / 정지
+
+![phone_detection _during_timer _operation](phone_detection _during_timer _operation.png)
+![person_detection_during_timer_operation](person_detection_during_timer_operation.png)
 
 ### 5. To Do List
 공부해야 할 내용을 To Do List에 추가할 수 있다.
