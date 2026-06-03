@@ -11,7 +11,7 @@
 
 프로젝트의 목표로는 사용자의 자기주도 학습을 돕는 것이다.
 
----
+
 
 ## 데이터셋을 학습한 방법
 YOLOv8 객체 탐지 모델의 fine-tuning을 위해
@@ -22,7 +22,7 @@ kaggle의 cell phone object detection dataset을 활용하였다.
 총 515장의 train 이미지를 이용하여 모델을 학습하였으며, 
 학습 경과 생성된 모델 파일이 best.pt 파일이다.
 
----
+
 
 ## 프로젝트 기능
 - 웹캠 기반 실시간 스마트폰 탐지
@@ -31,7 +31,7 @@ kaggle의 cell phone object detection dataset을 활용하였다.
 - 경고용 빨간 화면 테두리 출력
 - 중앙 경고 아이콘 표시
 
----
+
 
 ## 사용 기술
 - Python
@@ -40,7 +40,7 @@ kaggle의 cell phone object detection dataset을 활용하였다.
 - Ultralytics
 - Numpy
 
----
+
 
 ## 주요 기능
 ### 1. 스마트폰 탐지
