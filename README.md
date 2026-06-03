@@ -79,7 +79,7 @@ YOLOv8 기본 모델을 이용하여 사용자의 존재 여부를 확인한다.
 - 타이머 초기화
 - 시작 / 정지
 
-![phone_detection _during_timer _operation](phone_detection _during_timer _operation.png)
+![phone_detection_during_timer_operation](phone_detection_during_timer_operation.png)
 ![person_detection_during_timer_operation](person_detection_during_timer_operation.png)
 
 ### 5. To Do List
