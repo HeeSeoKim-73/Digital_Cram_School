@@ -81,7 +81,7 @@ YOLOv8 기본 모델을 이용하여 사용자의 존재 여부를 확인한다.
 
 ![phone_detection_during_timer_operation](phone_detection_during_timer_operation.png)
 ![person_detection_during_timer_operation](person_detection_during_timer_operation.png)
-
+ 
 ### 5. To Do List
 공부해야 할 내용을 To Do List에 추가할 수 있다.
 체크박스를 선택 하면 빨간 취소선이 표시된다.
